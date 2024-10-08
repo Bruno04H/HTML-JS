@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora IMC </title>
+</head>
+<body>
+    <script>
+        function pulaLinha(){
+            document.write("<br><br>")
+        }
+
+        function mostra(texto){
+            document.write(texto)
+            pulaLinha()
+        }
+
+        let pesoBruno = 59
+        let alturaBruno = 1.72
+
+        let imcBruno = pesoBruno/(alturaBruno*alturaBruno)
+
+        mostra(`O IMC de Bruno é $(imcBruno)`)//template sting
+        mostra('O IMC de Bruno é' + imcBruno)
+    </script>
+</body>
+</html>
