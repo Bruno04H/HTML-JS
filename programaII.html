@@ -16,13 +16,14 @@
             pulaLinha()
         }
 
-        let pesoBruno = 59
-        let alturaBruno = 1.72
+        function calcularIMC(peso, altura){
+            return imc = peso/(altura*altura)
+        }
 
-        let imcBruno = pesoBruno/(alturaBruno*alturaBruno)
+        let imcBruno = calcularIMC(72, 1.71)
 
-        mostra(`O IMC de Bruno é $(imcBruno)`)//template sting
-        mostra('O IMC de Bruno é' + imcBruno)
+        mostra('O IMC de Bruno é: ' + imcBruno)
+
     </script>
 </body>
 </html>
