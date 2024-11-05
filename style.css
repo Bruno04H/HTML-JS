@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-titulo:"Lilita One", serif;
+    --font-texto:"Itim", serif;
+    --cor1: #000000ff;
+--cor2: #14213dff;
+--cor3: #fca311ff;
+--cor4: #e5e5e5ff;
+--cor5: #ffffffff;
+
+}
+
+body{
+    background-color: var(--cor5);
+    font-family: var(--font-texto);
+
+}
+
+header, footer{
+    background-color: var(--cor4);
+    padding: 2em;
+    color: var(--cor2);
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 1.5em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor3)
+}
